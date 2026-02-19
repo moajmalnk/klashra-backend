@@ -1,0 +1,27 @@
+# Klashar Backend Deployment Configuration
+# ----------------------------------------
+
+# Ensure UTF-8 encoding
+AddDefaultCharset UTF-8
+
+# Force HTTPS redirection
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Routing Configuration
+# If a file or directory exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise, send everything to the index.php router
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Prevent directory listing
+Options -Indexes
+
+# Protect security files
+<Files ".env">
+    Order allow,deny
+    Deny from all
+</Files>
