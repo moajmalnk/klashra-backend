@@ -28,9 +28,22 @@ try {
 
     // Prepare Slug: Use provided or generate from title
     $title = $data['title'];
-    $slug = !empty($data['slug']) 
+    $baseSlug = !empty($data['slug']) 
             ? $data['slug'] 
             : strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+
+    // Ensure slug is unique
+    $slug = $baseSlug;
+    $count = 1;
+    while (true) {
+        $checkStmt = $pdo->prepare("SELECT COUNT(*) FROM holidays WHERE slug = :slug");
+        $checkStmt->execute([':slug' => $slug]);
+        if ($checkStmt->fetchColumn() == 0) {
+            break;
+        }
+        $slug = $baseSlug . '-' . $count;
+        $count++;
+    }
 
     /**
      * SQL Prepared Statement

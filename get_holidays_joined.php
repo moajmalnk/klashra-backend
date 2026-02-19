@@ -6,14 +6,23 @@
 require_once 'db_connect.php';
 
 try {
+    $id = isset($_GET['id']) ? (int)$_GET['id'] : null;
+    
     // JOIN holidays with destinations table
-    $sql = "SELECT h.*, d.destination as destination_name, d.country as country_name 
+    $sql = "SELECT h.*, d.destination as destination_name 
             FROM holidays h
-            LEFT JOIN destinations d ON h.destinationId = d.id
-            ORDER BY h.id DESC";
+            LEFT JOIN destinations d ON h.destinationId = d.id";
             
-    $stmt = $pdo->query($sql);
-    $holidays = $stmt->fetchAll();
+    if ($id) {
+        $sql .= " WHERE h.id = :id";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute(['id' => $id]);
+        $holidays = $stmt->fetchAll();
+    } else {
+        $sql .= " ORDER BY h.id DESC";
+        $stmt = $pdo->query($sql);
+        $holidays = $stmt->fetchAll();
+    }
 
     // Decode JSON fields
     foreach ($holidays as &$h) {

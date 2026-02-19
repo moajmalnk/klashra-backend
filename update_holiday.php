@@ -17,7 +17,20 @@ if (!isset($data['id'])) {
 try {
     $id = (int)$data['id'];
     $title = $data['title'];
-    $slug = !empty($data['slug']) ? $data['slug'] : strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+    $baseSlug = !empty($data['slug']) ? $data['slug'] : strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+
+    // Ensure slug is unique, excluding the current record
+    $slug = $baseSlug;
+    $count = 1;
+    while (true) {
+        $checkStmt = $pdo->prepare("SELECT COUNT(*) FROM holidays WHERE slug = :slug AND id != :id");
+        $checkStmt->execute([':slug' => $slug, ':id' => $id]);
+        if ($checkStmt->fetchColumn() == 0) {
+            break;
+        }
+        $slug = $baseSlug . '-' . $count;
+        $count++;
+    }
 
     $sql = "UPDATE holidays SET 
                 title = :title, 
@@ -68,5 +81,7 @@ try {
 
 } catch (PDOException $e) {
     echo json_encode(["status" => "error", "message" => "Database error: " . $e->getMessage()]);
+} catch (Exception $e) {
+    echo json_encode(["status" => "error", "message" => "Server error: " . $e->getMessage()]);
 }
 ?>

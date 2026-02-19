@@ -8,8 +8,12 @@
 header("X-Content-Type-Options: nosniff");
 header("X-Frame-Options: DENY");
 header("X-XSS-Protection: 1; mode=block");
-header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
-header("Content-Security-Policy: default-src 'self'; script-src 'self'; object-src 'none';");
+
+// Only enforce HTTPS/HSTS if not on localhost to prevent development CORS issues
+if ($_SERVER['HTTP_HOST'] !== 'localhost' && $_SERVER['HTTP_HOST'] !== '127.0.0.1') {
+    header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
+}
+header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; object-src 'none';");
 
 // 2. Handle CORS (Inherited from db_connect, but centralized here for better control)
 require_once 'db_connect.php'; 
@@ -40,7 +44,33 @@ $routes = [
     'bookings'           => 'get_bookings.php',
     'bookings/submit'    => 'submit_booking.php',
     'search'             => 'search.php',
-    'upload'             => 'upload_image.php'
+    'upload'             => 'upload_image.php',
+    'destinations'       => 'get_destinations.php',
+    'destinations/create'=> 'create_destination.php',
+    'destinations/update'=> 'update_destination.php',
+    'destinations/delete'=> 'delete_destination.php',
+    'countries'          => 'get_countries.php',
+    'countries/create'   => 'create_country.php',
+    'countries/update'   => 'update_country.php',
+    'countries/delete'   => 'delete_country.php',
+    'visas/all'          => 'get_visas.php',
+    'visas/create'       => 'create_visa.php',
+    'visas/update'       => 'update_visa.php',
+    'visas/delete'       => 'delete_visa.php',
+    'bookings'           => 'get_bookings.php',
+    'bookings/update-status'=> 'update_booking_status.php',
+    'bookings/delete'    => 'delete_booking.php',
+    'hotels'             => 'get_hotels.php',
+    'hotels/create'      => 'create_hotel.php',
+    'hotels/update'      => 'update_hotel.php',
+    'hotels/delete'      => 'delete_hotel.php',
+    'rooms'              => 'get_rooms.php',
+    'rooms/create'       => 'create_room.php',
+    'rooms/update'       => 'update_room.php',
+    'rooms/delete'       => 'delete_room.php',
+    'leads'              => 'get_leads.php',
+    'leads/update-status'=> 'update_lead_status.php',
+    'leads/delete'       => 'delete_lead.php'
 ];
 
 // Check if the route exists
