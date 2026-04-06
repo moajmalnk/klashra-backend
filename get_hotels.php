@@ -9,11 +9,11 @@ try {
     $id = isset($_GET['id']) ? (int)$_GET['id'] : null;
     
     if ($id) {
-        $stmt = $pdo->prepare("SELECT * FROM hotels WHERE id = :id");
+        $stmt = $pdo->prepare("SELECT h.*, (SELECT COUNT(*) FROM hotel_rooms r WHERE r.hotelId = h.id) as rooms FROM hotels h WHERE h.id = :id");
         $stmt->execute(['id' => $id]);
         $hotels = $stmt->fetchAll(PDO::FETCH_ASSOC);
     } else {
-        $stmt = $pdo->query("SELECT * FROM hotels ORDER BY id DESC");
+        $stmt = $pdo->query("SELECT h.*, (SELECT COUNT(*) FROM hotel_rooms r WHERE r.hotelId = h.id) as rooms FROM hotels h ORDER BY h.id DESC");
         $hotels = $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
