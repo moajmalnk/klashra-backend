@@ -46,7 +46,8 @@ try {
                 generalGuidelines = :generalGuidelines, 
                 termsAndConditions = :termsAndConditions, 
                 forceMajeure = :forceMajeure, 
-                pricingRules = :pricingRules
+                pricingRules = :pricingRules,
+                brochure_pdf = :brochure_pdf
             WHERE id = :id";
 
     $stmt = $pdo->prepare($sql);
@@ -69,6 +70,7 @@ try {
     $stmt->bindValue(':generalGuidelines', $data['generalGuidelines'] ?? '');
     $stmt->bindValue(':termsAndConditions', $data['termsAndConditions'] ?? '');
     $stmt->bindValue(':forceMajeure', $data['forceMajeure'] ?? '');
+    $stmt->bindValue(':brochure_pdf', $data['brochure_pdf'] ?? '');
 
     if ($stmt->execute()) {
         echo json_encode([

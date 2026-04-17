@@ -25,3 +25,8 @@ Options -Indexes
 <Files ".env">
     Require all denied
 </Files>
+
+
+SetEnv STRIPE_SECRET_KEY "sk_test_51MZVhpGL57V6KGVdSpFEOX6n0Pqy1q4silObAJaKjSG3LBDw39I8ZN2xjH17oOiQCfgOT4FnxAlIA6DGohoYGlyJ00HT3g4cne"
+SetEnv STRIPE_WEBHOOK_SECRET "whsec_uv4aYes1Ph0kb233WuYahkeHcs2V7ah6"
+SetEnv STRIPE_PUBLISHABLE_KEY "pk_test_51MZVhpGL57V6KGVdvLELPaSu6hf5hmxfulAONkoc5sAv7PRjITe1AAPgAJnt4PfC2vhi6iew8EgugL8vgIPeTLWt00CqpL8X0G"

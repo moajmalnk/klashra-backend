@@ -63,7 +63,8 @@ try {
                 generalGuidelines, 
                 termsAndConditions, 
                 forceMajeure, 
-                pricingRules
+                pricingRules,
+                brochure_pdf
             ) VALUES (
                 :title, 
                 :startingPriceAED, 
@@ -78,7 +79,8 @@ try {
                 :generalGuidelines, 
                 :termsAndConditions, 
                 :forceMajeure, 
-                :pricingRules
+                :pricingRules,
+                :brochure_pdf
             )";
 
     $stmt = $pdo->prepare($sql);
@@ -103,6 +105,7 @@ try {
     $stmt->bindValue(':generalGuidelines', $data['generalGuidelines'] ?? '');
     $stmt->bindValue(':termsAndConditions', $data['termsAndConditions'] ?? '');
     $stmt->bindValue(':forceMajeure', $data['forceMajeure'] ?? '');
+    $stmt->bindValue(':brochure_pdf', $data['brochure_pdf'] ?? '');
 
     // Execute
     if ($stmt->execute()) {

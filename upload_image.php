@@ -5,6 +5,7 @@
  */
 
 require_once 'db_connect.php';
+require_once 'image_optimizer.php';
 
 // Define the upload directory
 $upload_dir = 'uploads/';
@@ -53,6 +54,9 @@ $new_file_name = uniqid('img_', true) . '.' . $file_ext;
 $destination = $upload_dir . $new_file_name;
 
 if (move_uploaded_file($file_tmp, $destination)) {
+    // Optimize image in-place so uploads stay lightweight.
+    optimizeImageInPlace($destination, 1920);
+
     // Return the full relative path for the frontend to use
     // Assuming the backend is at some URL, this path is relative to it
     echo json_encode([

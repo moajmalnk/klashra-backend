@@ -1,5 +1,6 @@
 <?php
 require_once 'db_connect.php';
+session_start();
 
 
 $data = json_decode(file_get_contents("php://input"), true);
@@ -16,7 +17,18 @@ if (empty($data['customerDetails']['name']) || empty($data['customerDetails']['e
 }
 
 try {
+    $sessionUserId = $_SESSION['user_id'] ?? null;
+    $email = trim($data['customerDetails']['email'] ?? '');
+    $resolvedUserId = $sessionUserId;
+
+    if (!$resolvedUserId && $email !== '') {
+        $userStmt = $pdo->prepare("SELECT id FROM users WHERE email = :email LIMIT 1");
+        $userStmt->execute([':email' => $email]);
+        $resolvedUserId = $userStmt->fetchColumn() ?: null;
+    }
+
     $stmt = $pdo->prepare("INSERT INTO holiday_bookings (
+        user_id,
         packageId, 
         packageName,
         customerName, 
@@ -29,16 +41,17 @@ try {
         travelerDetails, 
         created_at
     ) VALUES (
-        ?, ?, ?, ?, ?, ?, ?, ?, 'Pending', ?, NOW()
+        ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending', ?, NOW()
     )");
     
     $travelerDetails = json_encode($data['travelersDetails'] ?? []);
     
     $result = $stmt->execute([
+        $resolvedUserId,
         $data['packageId'] ?? 0,
         $data['packageName'] ?? 'N/A',
         $data['customerDetails']['name'],
-        $data['customerDetails']['email'],
+        $email,
         $data['customerDetails']['phone'],
         $data['departureDate'],
         $data['travelers'],

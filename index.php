@@ -19,10 +19,24 @@ header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-i
 require_once 'db_connect.php'; 
 
 // 3. Routing Logic
-$request_uri = $_SERVER['REQUEST_URI'];
-$base_path = '/klashra/klashra-backend/'; // Adjust based on your server folder
-$route = str_replace($base_path, '', $request_uri);
-$route = explode('?', $route)[0]; // Remove query strings
+$request_uri = $_SERVER['REQUEST_URI'] ?? '/';
+$route = parse_url($request_uri, PHP_URL_PATH) ?? '/';
+$route = trim($route, '/');
+
+// Support requests that come through a proxy prefix (e.g. /api/user_auth.php)
+if (strpos($route, 'api/') === 0) {
+    $route = substr($route, 4);
+}
+
+// If an actual PHP file is requested, serve it directly.
+// This prevents router 404s for endpoints like user_auth.php.
+if ($route !== '' && substr($route, -4) === '.php') {
+    $directFile = __DIR__ . '/' . $route;
+    if (file_exists($directFile)) {
+        require_once $directFile;
+        exit();
+    }
+}
 
 // Route Mapping
 $routes = [
@@ -36,6 +50,8 @@ $routes = [
     
     // Admin & Auth
     'login'              => 'login.php',
+    'user_auth'          => 'user_auth.php',
+    'my-bookings'        => 'get_my_bookings.php',
     'stats'              => 'get_dashboard_stats.php',
     'settings'           => 'get_settings.php',
     'settings/save'      => 'save_settings.php',
@@ -70,7 +86,13 @@ $routes = [
     'rooms/delete'       => 'delete_room.php',
     'leads'              => 'get_leads.php',
     'leads/update-status'=> 'update_lead_status.php',
-    'leads/delete'       => 'delete_lead.php'
+    'leads/delete'       => 'delete_lead.php',
+
+    // Payments (Stripe)
+    // Keep backward-compatible path used in Stripe dashboard / older clients.
+    'payment/hook'       => 'stripe_webhook.php',
+    'payments/hook'      => 'stripe_webhook.php',
+    'stripe_webhook'     => 'stripe_webhook.php',
 ];
 
 // Check if the route exists

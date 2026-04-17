@@ -1,0 +1,332 @@
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1JudlFOuF8tjOe75YzqhOwPjSV2O1E6khTCd8wf9nQLzEyL13qF16e8wg
+CONFIRM_PAYMENT STARTED with session: cs_test_a1hHcNW0OwVt1FkJFPrjTlQK6S3F0s0I4O4hhWNIpCIzXOOEEQErgtAC0j
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Updating table: holiday_bookings for booking: 22
+SERVER ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'applicantName' in 'field list'
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Updating table: holiday_bookings for booking: 22
+Processing payment for ajmal.codo@gmail.com, phone: +91 9865714345, name: CODO Antigravity
+Email exists, checking user...
+User created with ID: 1, Password: ajm4345
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Payment already synchronized for session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Payment already synchronized for session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Payment already synchronized for session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+CONFIRM_PAYMENT STARTED with session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Session retrieved. Status: paid
+Metadata - ID: 23, Type: holiday
+Updating table: holiday_bookings for booking: 23
+Processing payment for codo.antigravity@gmail.com, phone: +971 5678987678, name: CODO Antigravity
+Email exists, checking user...
+User created with ID: 4, Password: cod7678
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Session retrieved. Status: paid
+Metadata - ID: 23, Type: holiday
+Payment already synchronized for session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+CONFIRM_PAYMENT STARTED with session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Session retrieved. Status: paid
+Metadata - ID: 24, Type: holiday
+Updating table: holiday_bookings for booking: 24
+Processing payment for codo.antigravity@gmail.com, phone: +968 5678987678, name: Guest
+Email exists, checking user...
+User already exists with ID: 4
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Session retrieved. Status: paid
+Metadata - ID: 25, Type: holiday
+Updating table: holiday_bookings for booking: 25
+Processing payment for codo.antigravity@gmail.com, phone: +968 5678987678, name: CODO Antigravity
+Email exists, checking user...
+User already exists with ID: 4
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Session retrieved. Status: paid
+Metadata - ID: 23, Type: holiday
+Payment already synchronized for session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Payment already synchronized for session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+CONFIRM_PAYMENT STARTED with session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Session retrieved. Status: paid
+Metadata - ID: 24, Type: holiday
+Payment already synchronized for session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+CONFIRM_PAYMENT STARTED with session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Session retrieved. Status: paid
+Metadata - ID: 25, Type: holiday
+Payment already synchronized for session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 3
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Session retrieved. Status: paid
+Metadata - ID: 23, Type: holiday
+Payment already synchronized for session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Relinked existing booking 23 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Session retrieved. Status: paid
+Metadata - ID: 24, Type: holiday
+Payment already synchronized for session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Relinked existing booking 24 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Session retrieved. Status: paid
+Metadata - ID: 25, Type: holiday
+Payment already synchronized for session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Relinked existing booking 25 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 3
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Payment already synchronized for session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Relinked existing booking 22 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Payment already synchronized for session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Relinked existing booking 22 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Session retrieved. Status: paid
+Metadata - ID: 23, Type: holiday
+Payment already synchronized for session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Relinked existing booking 23 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Session retrieved. Status: paid
+Metadata - ID: 24, Type: holiday
+Payment already synchronized for session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Relinked existing booking 24 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Session retrieved. Status: paid
+Metadata - ID: 25, Type: holiday
+Payment already synchronized for session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Relinked existing booking 25 in holiday_bookings to user 3
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 3
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1hbw2QTrhwdFGrLkUKkaxmiP1PJ23fbAz8iIPaDZLTQccS9QvkCpmJiAq
+Session retrieved. Status: paid
+Metadata - ID: 26, Type: holiday
+Updating table: holiday_bookings for booking: 26
+Processing payment for codo.antigravity@gmail.com, phone: +968 5678987678, name: Guest
+Email exists, checking user...
+User already exists with ID: 4
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Session retrieved. Status: paid
+Metadata - ID: 23, Type: holiday
+Payment already synchronized for session: cs_test_a1Pc5UaqnoT7dXUvfTNvwnXGiAJe86GaJfYM3mE7i9Yc1XEG8kNXs31CdR
+Session restored from synced booking for user 4 (codo.antigravity@gmail.com)
+CONFIRM_PAYMENT STARTED with session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Session retrieved. Status: paid
+Metadata - ID: 24, Type: holiday
+Payment already synchronized for session: cs_test_a1xbebeqWLM9qO3H4DXwowgT1xmQ0Ac27WzbdKUMiKTHTosPX3mVvjd0xm
+Relinked existing booking 24 in holiday_bookings to user 4
+CONFIRM_PAYMENT STARTED with session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Session retrieved. Status: paid
+Metadata - ID: 25, Type: holiday
+Payment already synchronized for session: cs_test_a1H3ghXgbqqDzCXjYWA5q7c1VcXvoM9XK5ZqGJtpsOpVAyMD0gfCRtEuKX
+Relinked existing booking 25 in holiday_bookings to user 4
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Session retrieved. Status: paid
+Metadata - ID: 22, Type: holiday
+Payment already synchronized for session: cs_test_a1wukVaQQjkPAOjFVVCIEZ1wItnhwMCgO6omRxxWt3amovSWoW9CNqb0Pl
+Relinked existing booking 22 in holiday_bookings to user 4
+CONFIRM_PAYMENT STARTED with session: cs_test_a1hbw2QTrhwdFGrLkUKkaxmiP1PJ23fbAz8iIPaDZLTQccS9QvkCpmJiAq
+Session retrieved. Status: paid
+Metadata - ID: 26, Type: holiday
+Payment already synchronized for session: cs_test_a1hbw2QTrhwdFGrLkUKkaxmiP1PJ23fbAz8iIPaDZLTQccS9QvkCpmJiAq
+Relinked existing booking 26 in holiday_bookings to user 4
+CONFIRM_PAYMENT STARTED with session: cs_test_a1rhLNnqdax5pw9SG8Ec8xhemN6DBXeWM2ssI4TYtJdTHJ1LZFjc34bbMa
+Session retrieved. Status: paid
+Metadata - ID: 27, Type: holiday
+Updating table: holiday_bookings for booking: 27
+Processing payment for codo.antigravity@gmail.com, phone: +968 5678987678, name: Guest
+Using session user_id: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1V4qWK6PZkximCyyRBNqca4dXfwVMP6erWd9WPDWRzSwAjruT4KbW5SgQ
+Session retrieved. Status: paid
+Metadata - ID: 28, Type: holiday
+Updating table: holiday_bookings for booking: 28
+Processing payment for codo.antigravity@gmail.com, phone: +968 5678987678, name: CODO sdfghjk
+Email exists, checking user...
+User already exists with ID: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+Using session user_id: 4
+Auto-login session set for user 4 (codo.antigravity@gmail.com)
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1FVekA4X9vkLpaqau2PX8axzBgOtDYg9Q1khW2IFS3lOQJ6HaEDIvENe5
+Session retrieved. Status: paid
+Metadata - ID: 34, Type: holiday
+Updating table: holiday_bookings for booking: 34
+Processing payment for test@gmail.com, phone: +91 8848676627, name: Guest
+Email exists, checking user...
+User created with ID: 5, Password: gue6627
+Auto-login session set for user 5 (test@gmail.com)
+Payment saved successfully.
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+Session retrieved. Status: paid
+Metadata - ID: HB-007, Type: hotel
+Updating table: hotel_bookings for booking: HB-007
+ERROR: Booking not found in database for ID: HB-007 in table: hotel_bookings
+Processing payment for , phone: , name: Traveler
+SERVER ERROR: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'HB-007' for column `klashar_db`.`payments`.`booking_id` at row 1
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+STRIPE ERROR: Could not connect to Stripe (https://api.stripe.com/v1/checkout/sessions/cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 6]: Couldn't resolve host 'api.stripe.com')
+CONFIRM_PAYMENT STARTED with session: cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg
+STRIPE ERROR: Could not connect to Stripe (https://api.stripe.com/v1/checkout/sessions/cs_test_a1bGIfJ2A9vgKcgmsQ9Mtz6sJxxw519XQg829RObRyZkr2DHTJzyWGrkOg).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 6]: Couldn't resolve host 'api.stripe.com')
