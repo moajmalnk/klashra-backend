@@ -26,6 +26,7 @@ $type = (string)$data['type'];
 $amount = (float)$data['amount'];
 $product_name = (string)($data['product_name'] ?? "Klashra Service Payment");
 $amount_in_cents = (int)round($amount * 100);
+$currency = 'aed'; // single-currency implementation
 $base_frontend_url = (string)($data['frontend_url'] ?? "http://localhost:8080");
 $success_url = $base_frontend_url . "/payment-success?session_id={CHECKOUT_SESSION_ID}";
 $cancel_url = $base_frontend_url . "/payment-cancel";
@@ -33,6 +34,18 @@ $cancel_url = $base_frontend_url . "/payment-cancel";
 if ($amount_in_cents <= 0) {
     http_response_code(400);
     echo json_encode(["status" => "error", "message" => "Invalid amount."]);
+    exit();
+}
+
+// Stripe has minimum charge amounts per currency. For AED, Stripe requires at least 2.00 AED.
+// Fail fast with a clear message instead of letting Stripe throw a less obvious error.
+$min_amount_in_cents = 200; // 2.00 AED
+if ($amount_in_cents < $min_amount_in_cents) {
+    http_response_code(400);
+    echo json_encode([
+        "status" => "error",
+        "message" => "Minimum payment amount is 2 AED."
+    ]);
     exit();
 }
 
@@ -66,7 +79,7 @@ try {
             'payment_method_types' => ['card'],
             'line_items' => [[
                 'price_data' => [
-                    'currency' => 'aed',
+                    'currency' => $currency,
                     'product_data' => [
                         'name' => $product_name,
                         'description' => "Booking ID: $booking_id ($type)",
@@ -102,7 +115,7 @@ try {
         'cancel_url' => $cancel_url,
         'payment_method_types[0]' => 'card',
         'line_items[0][quantity]' => '1',
-        'line_items[0][price_data][currency]' => 'aed',
+        'line_items[0][price_data][currency]' => $currency,
         'line_items[0][price_data][unit_amount]' => (string)$amount_in_cents,
         'line_items[0][price_data][product_data][name]' => $product_name,
         'line_items[0][price_data][product_data][description]' => "Booking ID: $booking_id ($type)",
